@@ -21,5 +21,16 @@
         "PRIMARY LIMITS OF LIABILITY",
         "RETROACTIVE",
         "DATE EXCLUSIONS"
+    ],
+        "Purchase_Order" : [
+        "Purchase Order Number (PO)",
+        "Name and Address of Vendor",   
+        "Veterans Address",
+        "Veteran Name", 
+        "Date of Authorization or Purchase",
+        "Item Number", 
+        "Description", 
+        "Delivery Date",
+        "Amount"
     ]
 }
