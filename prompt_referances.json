@@ -1,0 +1,25 @@
+{
+    "Run_Loss": [
+        "Claim Number",
+        "Insured Name",
+        "Injury Description",
+        "Policy Effective Date",
+        "Policy Expiry Date",
+        "ALAE Paid",
+        "Indemnity Paid",
+        "Rate State",
+        "Total Case Reserves"
+    ],
+    "Insurance_Certificate": [
+        "ISSUE DATE",
+        "INSURED",
+        "TYPE OF INSURANCE",
+        "POLICY TYPE",
+        "POLICY NUMBER",
+        "EFFECTIVE DATE",
+        "EXPIRATION DATE",
+        "PRIMARY LIMITS OF LIABILITY",
+        "RETROACTIVE",
+        "DATE EXCLUSIONS"
+    ]
+}
