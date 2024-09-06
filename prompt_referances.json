@@ -22,7 +22,7 @@
         "RETROACTIVE",
         "DATE EXCLUSIONS"
     ],
-        "Purchase_Order" : [
+    "Purchase_Order" : [
         "Purchase Order Number (PO)",
         "Name and Address of Vendor",   
         "Veterans Address",
