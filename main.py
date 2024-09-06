@@ -25,7 +25,11 @@ if __name__ == "__main__":
     img_no = input("img_no (leave blank if not applicable): ").strip() or None
     file_type = input("file_type: ").strip() or None
     referance_list = input("Manual referan (provide values Comma Seperated),  (leave blank if not applicable): ").strip() or None
-    referance_list = referance_list.split(",")
+    try:
+        referance_list = referance_list.split(",")
+    except:
+        print("Warning : NoneType object has no attribute split")
+        referance_list = None
     # print(referance_list)
     
     dispvar = pdf_referance_extract(pdf_path=pdf_path, img_no=img_no, file_type=file_type, referance_list=referance_list)
